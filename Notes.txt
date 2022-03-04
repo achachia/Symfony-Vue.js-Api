@@ -1,0 +1,36 @@
+
+
+composer create-project symfony/skeleton gestion-d3e-project
+
+composer require symfony/web-server-bundle --dev ^4.4.2
+
+
+
+
+composer require symfony/webpack-encore-bundle
+
+
+
+Methode 1 : installer server 
+   composer require server -- dev
+
+   php bin/console server:run
+
+Mehode 2 : lancer la commande php -S 127.0.0.1:8000 -t public
+
+
+yarn run encore dev --watch  // compile vue.js
+
+    
+
+Tuto : https://michael.bouvy.net/post/all-in-one-symfony-5-vuejs-web-application
+
+
+
+composer require symfony/maker-bundle --dev
+
+composer require doctrine/annotations
+
+composer require "twig/twig:^2.0"
+
+composer require symfony/twig-bundle
